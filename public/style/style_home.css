@@ -1,0 +1,32 @@
+.label-card-home {
+    color: #FF8000; 
+    font-size: 2.5rem;
+}
+
+.card-home {
+    background-color: white;
+    z-index:2;
+    margin-top:22%;
+    border-radius:26px;
+    padding-bottom: 10px;
+}
+
+.card-menu {
+    border-radius: 12px;
+    border: none;
+    background-color: #FF8000; 
+    text-align: center;
+}
+
+.icon-menu {
+    font-size: 3.5rem;
+}
+
+.label-module {
+    color: #FF8000; 
+    font-size: 1.5rem;
+}
+
+.margin-content-praktek {
+    margin-bottom: 15px;
+}
