@@ -11,7 +11,7 @@
  Target Server Version : 80400 (8.4.0)
  File Encoding         : 65001
 
- Date: 19/01/2025 08:26:01
+ Date: 19/01/2025 10:46:03
 */
 
 SET NAMES utf8mb4;
@@ -1006,56 +1006,123 @@ CREATE TABLE `menyusun_kalimat` (
 -- Records of menyusun_kalimat
 -- ----------------------------
 BEGIN;
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (1, '学校/行きます/私/毎日', '私は毎日学校に行きます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (2, '食べる/魚/私/朝ごはん/を', '私は朝ごはんに魚を食べます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (3, '本/彼/よく/読みます', '彼は本をよく読みます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (4, '彼女/日本語/話す/上手/は', '彼女は日本語が上手です');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (5, '公園/友達/と/行きました/昨日', '昨日友達と公園に行きました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (6, '仕事/毎日/彼/します', '彼は毎日仕事をします');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (7, '映画/見る/今日は/私/友達/と', '今日は友達と映画を見ます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (1, '学校に/行きます/私は/毎日', '私は毎日学校に行きます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (2, '食べます/に魚/私は/朝ごはん/を', '私は朝ごはんに魚を食べます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (3, '本を/彼は/よく/読みます', '彼は本をよく読みます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (4, '彼女/日本語/が/上手/です/は', '彼女は日本語が上手です');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (5, '公園/友達/と/行きました/昨日/に', '昨日友達と公園に行きました');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (6, '仕事/毎日/彼/します/は/を', '彼は毎日仕事をします');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (7, '映画/見ます/今日は/友達/と/を', '今日は友達と映画を見ます');
 INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (8, '日本/に/旅行/来週/します', '来週日本に旅行します');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (9, '好き/私/音楽/を', '私は音楽が好きです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (9, '好き/私/音楽/は/が/です', '私は音楽が好きです');
 INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (10, '昨日/勉強/長い時間/しました', '昨日長い時間勉強しました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (11, '弟/と/映画/見る/よく', 'よく弟と映画を見ます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (12, '毎日/働きます/私/会社/で', '私は毎日会社で働きます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (13, '日本/学ぶ/今年/ために/から/日本語', '今年日本語を学ぶために日本に行きます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (14, '夏休み/は/旅行/行きます/私/予定', '夏休みは私が旅行に行く予定です');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (11, '弟/と/映画/見ます/よく/を', 'よく弟と映画を見ます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (12, '毎日/働きます/私/会社/で/は', '私は毎日会社で働きます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (13, '日本/学ぶ/今年/ために/から/日本語/を/へ/行きます', '今年日本語を学ぶために日本へ行きます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (14, '夏休み/は/旅行/行く/私/予定/が/に/です', '夏休みは私が旅行行く予定です');
 INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (15, '雨/昨日/が/とても/降った', '昨日雨がとても降った');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (16, '英語/勉強/毎日/します/彼', '彼は毎日英語を勉強します');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (17, '映画/見ました/楽しかった/昨日', '昨日映画を見ましたが楽しかったです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (18, '日本/旅行/する/来年/私/予定', '来年日本に旅行する予定です');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (19, 'コーヒー/飲みます/毎朝/私/を', '毎朝私はコーヒーを飲みます');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (20, 'たくさん/走ります/公園/毎日/彼', '彼は毎日公園でたくさん走ります');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (21, '私は/のために/毎日/彼に/本を/買っています', '私は毎日彼のために本を買っています');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (22, 'その店/行きました/とても/私/今日は/に/良かった', '今日はその店に行きましたがとてもよかったです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (23, '彼/会った/とても/私/楽しみました/昨日', '昨日私は彼に会ったがとても楽しみました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (24, 'サッカー/します/友達と/よく/私', '私は友達とよくサッカーをします');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (25, '昨日/授業/受けた/とても/私/つまらなかった', '昨日私は授業を受けましたがとてもつまらなかったです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (26, 'その映画/見た/とても/面白かった/私/です', '私はその映画を見たがとても面白かったです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (27, '本を/買いました/昨日/私/大きい/書店で', '昨日私は大きい書店で本を買いました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (28, 'カラオケ/行きました/友達/私/と', '私は友達とカラオケに行きました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (29, '日本/旅行/したい/私/ずっと', '私はずっと日本に旅行したいです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (30, '来週/休む/予定/彼/会社で', '彼は来週会社で休む予定です');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (31, '日本/行く/友達/今年/行く/予定/私', '今年友達は日本に行く予定です私は行く予定です');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (32, '今日は/明日/雨が降る/予報/私/傘を/持っていく', '今日は明日雨が降る予報です私は傘を持っていくつもりです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (33, '日本語/毎日/私/勉強/難しい/でも/上手になりたい', '毎日日本語を勉強しますが難しいですでも上手になりたいです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (34, '彼は/新しい/仕事を/見つけました/嬉しそうに/今日は/言いました', '彼は新しい仕事を見つけましたが今日は嬉しそうに言いました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (35, '日曜日/友達/と/映画/見る/楽しみです', '日曜日友達と映画を見る予定です楽しみです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (36, '昨日/音楽/聴いて/リラックスした/私/好きです', '昨日音楽を聴いてリラックスしました私は音楽が好きです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (37, '母/料理/美味しい/上手です/毎日/作ります', '母は毎日美味しい料理を作りますが上手です');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (38, '友達/と/公園/走る/今日は/一緒に', '今日は友達と一緒に公園を走ります');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (39, '旅行/来月/日本/する/行きたかった', '来月日本に旅行する予定です行きたかったです');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (40, '仕事/長時間/今日は/しました/とても/疲れました', '今日は長時間仕事をしましたがとても疲れました');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (41, 'どこ/行く/あなた/明日/は', 'あなたは明日どこに行きますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (42, '何/映画/見ます/あなた/今日は', 'あなたは今日は何の映画を見ますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (43, '好き/音楽/何/あなた/を', 'あなたは何の音楽が好きですか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (44, '日本語/話せますか/あなた/は', 'あなたは日本語を話せますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (45, '何時/会う/友達/明日/を', '明日あなたは何時に友達に会いますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (46, 'どこで/昼ごはん/食べますか/あなた', 'あなたはどこで昼ごはんを食べますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (47, '昨日/何を/しましたか/あなた', 'あなたは昨日何をしましたか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (48, 'どんな/本/読みますか/あなた', 'あなたはどんな本を読みますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (49, '家/帰る/何時/彼/は', '彼は何時に家に帰りますか');
-INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (50, 'どこ/旅行/行きますか/来月/あなた', 'あなたは来月どこに旅行に行きますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (16, '英語/勉強/毎日/します/彼/は/を', '彼は毎日英語を勉強します');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (17, '映画/見ました/楽しかった/昨日/を/が/です', '昨日映画を見ましたが楽しかったです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (18, '日本/旅行/する/来年/私/予定/に/です', '来年日本に旅行する予定です');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (19, 'コーヒー/飲みます/毎朝/私/を/は', '毎朝私はコーヒーを飲みます');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (20, 'たくさん/走ります/公園/毎日/彼/は/で', '彼は毎日公園でたくさん走ります');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (21, '私は/のために/毎日/彼/本を/買っています', '私は毎日彼のために本を買っています');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (22, 'その店/行きましたが/とても/私/今日は/に/よかった', '今日はその店に行きましたがとてもよかったです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (23, '彼に/会ったが/とても/私は/楽しみました/昨日', '昨日私は彼に会ったがとても楽しみました');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (24, 'サッカーを/します/友達と/よく/私は', '私は友達とよくサッカーをします');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (25, '昨日/授業を/受けましたが/とても/私は/つまらなかったです', '昨日私は授業を受けましたがとてもつまらなかったです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (26, 'その映画を/見たが/とても/面白かったです/私は/です', '私はその映画を見たがとても面白かったです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (27, '本を/買いました/昨日/私は/大きい/書店で', '昨日私は大きい書店で本を買いました');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (28, 'カラオケへ/行きました/友達と/私は/と', '私は友達とカラオケへ行きました');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (29, '日本に/旅行/したいです/私は/ずっと', '私はずっと日本に旅行したいです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (30, '来週/休む/予定です/彼は/会社で', '彼は来週会社で休む予定です');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (31, '日本へ/行く/友達は/今年/行く/予定です/私と', '今年私と友達は日本へ行く予定です');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (32, '今日は/明日/雨が降る/予報です/私は/傘を/持っていく/つもりです', '今日は明日雨が降る予報です私は傘を持っていくつもりです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (33, '日本語を/毎日/私/勉強しますが/難しい/ですけど/上手になりたいです', '毎日日本語を勉強しますが難しいですけど上手になりたいです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (34, '彼は/新しい/仕事を/見つけましたが/嬉しそうに/今日は/言いました', '彼は新しい仕事を見つけましたが今日は嬉しそうに言いました');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (35, '日曜日/友達/と/映画/見る/楽しみです/予定です。', '日曜日友達と映画を見る予定です楽しみです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (36, '昨日/音楽を/聴いて/リラックスした/私は/好きです/音楽が', '昨日音楽を聴いてリラックスしました私は音楽が好きです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (37, '母は/料理を/美味しい/上手です/毎日/作りますが', '母は毎日美味しい料理を作りますが上手です');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (38, '友達/と/公園へ/走ります/今日は/一緒に', '今日は友達と一緒に公園へ走ります');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (39, '旅行/来月/日本へ/する/行きたかったです/予定です', '来月日本へ旅行する予定です行きたかったです');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (40, '仕事を/長時間/今日は/しました/とても/疲れました', '今日は長時間仕事をしましたがとても疲れました');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (41, 'どこへ/行きますか/あなたは/明日/は', 'あなたは明日どこへ行きますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (42, '何の/映画を/見ますか/あなたは/今日は', 'あなたは今日は何の映画を見ますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (43, '好きですか/音楽/何の/あなたは/を', 'あなたは何の音楽が好きですか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (44, '日本語を/話せますか/あなた/は', 'あなたは日本語を話せますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (45, '何時に/会ういますか/友達に/明日/を/あなたは', '明日あなたは何時に友達に会いますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (46, 'どこで/昼ごはんを/食べますか/あなたは', 'あなたはどこで昼ごはんを食べますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (47, '昨日/何を/しましたか/あなたは', 'あなたは昨日何をしましたか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (48, 'どんな/本を/読みますか/あなたは', 'あなたはどんな本を読みますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (49, '家に/帰りますか/何時に/彼/は', '彼は何時に家に帰りますか');
+INSERT INTO `menyusun_kalimat` (`id`, `soal`, `jawaban`) VALUES (50, 'どこに/旅行へ/行きますか/来月/あなたは', 'あなたは来月どこに旅行へ行きますか');
+COMMIT;
+
+-- ----------------------------
+-- Table structure for menyusun_kalimat_copy1
+-- ----------------------------
+DROP TABLE IF EXISTS `menyusun_kalimat_copy1`;
+CREATE TABLE `menyusun_kalimat_copy1` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `soal` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `jawaban` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- ----------------------------
+-- Records of menyusun_kalimat_copy1
+-- ----------------------------
+BEGIN;
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (1, '学校/行きます/私/毎日', '私は毎日学校に行きます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (2, '食べる/魚/私/朝ごはん/を', '私は朝ごはんに魚を食べます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (3, '本/彼/よく/読みます', '彼は本をよく読みます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (4, '彼女/日本語/話す/上手/は', '彼女は日本語が上手です');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (5, '公園/友達/と/行きました/昨日', '昨日友達と公園に行きました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (6, '仕事/毎日/彼/します', '彼は毎日仕事をします');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (7, '映画/見る/今日は/私/友達/と', '今日は友達と映画を見ます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (8, '日本/に/旅行/来週/します', '来週日本に旅行します');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (9, '好き/私/音楽/を', '私は音楽が好きです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (10, '昨日/勉強/長い時間/しました', '昨日長い時間勉強しました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (11, '弟/と/映画/見る/よく', 'よく弟と映画を見ます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (12, '毎日/働きます/私/会社/で', '私は毎日会社で働きます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (13, '日本/学ぶ/今年/ために/から/日本語', '今年日本語を学ぶために日本に行きます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (14, '夏休み/は/旅行/行きます/私/予定', '夏休みは私が旅行に行く予定です');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (15, '雨/昨日/が/とても/降った', '昨日雨がとても降った');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (16, '英語/勉強/毎日/します/彼', '彼は毎日英語を勉強します');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (17, '映画/見ました/楽しかった/昨日', '昨日映画を見ましたが楽しかったです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (18, '日本/旅行/する/来年/私/予定', '来年日本に旅行する予定です');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (19, 'コーヒー/飲みます/毎朝/私/を', '毎朝私はコーヒーを飲みます');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (20, 'たくさん/走ります/公園/毎日/彼', '彼は毎日公園でたくさん走ります');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (21, '私は/のために/毎日/彼に/本を/買っています', '私は毎日彼のために本を買っています');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (22, 'その店/行きました/とても/私/今日は/に/良かった', '今日はその店に行きましたがとてもよかったです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (23, '彼/会った/とても/私/楽しみました/昨日', '昨日私は彼に会ったがとても楽しみました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (24, 'サッカー/します/友達と/よく/私', '私は友達とよくサッカーをします');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (25, '昨日/授業/受けた/とても/私/つまらなかった', '昨日私は授業を受けましたがとてもつまらなかったです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (26, 'その映画/見た/とても/面白かった/私/です', '私はその映画を見たがとても面白かったです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (27, '本を/買いました/昨日/私/大きい/書店で', '昨日私は大きい書店で本を買いました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (28, 'カラオケ/行きました/友達/私/と', '私は友達とカラオケに行きました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (29, '日本/旅行/したい/私/ずっと', '私はずっと日本に旅行したいです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (30, '来週/休む/予定/彼/会社で', '彼は来週会社で休む予定です');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (31, '日本/行く/友達/今年/行く/予定/私', '今年友達は日本に行く予定です私は行く予定です');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (32, '今日は/明日/雨が降る/予報/私/傘を/持っていく', '今日は明日雨が降る予報です私は傘を持っていくつもりです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (33, '日本語/毎日/私/勉強/難しい/でも/上手になりたい', '毎日日本語を勉強しますが難しいですでも上手になりたいです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (34, '彼は/新しい/仕事を/見つけました/嬉しそうに/今日は/言いました', '彼は新しい仕事を見つけましたが今日は嬉しそうに言いました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (35, '日曜日/友達/と/映画/見る/楽しみです', '日曜日友達と映画を見る予定です楽しみです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (36, '昨日/音楽/聴いて/リラックスした/私/好きです', '昨日音楽を聴いてリラックスしました私は音楽が好きです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (37, '母/料理/美味しい/上手です/毎日/作ります', '母は毎日美味しい料理を作りますが上手です');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (38, '友達/と/公園/走る/今日は/一緒に', '今日は友達と一緒に公園を走ります');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (39, '旅行/来月/日本/する/行きたかった', '来月日本に旅行する予定です行きたかったです');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (40, '仕事/長時間/今日は/しました/とても/疲れました', '今日は長時間仕事をしましたがとても疲れました');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (41, 'どこ/行く/あなた/明日/は', 'あなたは明日どこに行きますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (42, '何/映画/見ます/あなた/今日は', 'あなたは今日は何の映画を見ますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (43, '好き/音楽/何/あなた/を', 'あなたは何の音楽が好きですか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (44, '日本語/話せますか/あなた/は', 'あなたは日本語を話せますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (45, '何時/会う/友達/明日/を', '明日あなたは何時に友達に会いますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (46, 'どこで/昼ごはん/食べますか/あなた', 'あなたはどこで昼ごはんを食べますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (47, '昨日/何を/しましたか/あなた', 'あなたは昨日何をしましたか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (48, 'どんな/本/読みますか/あなた', 'あなたはどんな本を読みますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (49, '家/帰る/何時/彼/は', '彼は何時に家に帰りますか');
+INSERT INTO `menyusun_kalimat_copy1` (`id`, `soal`, `jawaban`) VALUES (50, 'どこ/旅行/行きますか/来月/あなた', 'あなたは来月どこに旅行に行きますか');
 COMMIT;
 
 -- ----------------------------
